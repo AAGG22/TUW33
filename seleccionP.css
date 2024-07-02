@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Mandali&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Patua One", serif;
+    font-family: "Mandali", sans-serif;
+    
+}
+
+/*ESTILOS DEL MENU #f74712,#ee7724*/
+.navbar-dark .navbar-brand {
+    color: #ffffff; /* Ensure the navbar brand text is white */
+}
+  
+.navbar-dark .navbar-brand img {
+    margin-right: 0px; /* Optional: add some spacing to the right of the logo */
+}
+  
+  /* Change the background color of the active and focused state of the dropdown toggle */
+.nav-link.dropdown-toggle:focus, .nav-link.dropdown-toggle:active {
+    background-color: #fa7203 !important; /* Orange color */
+    color: #ffffff !important; /* Ensure the text color remains white */
+}
+  
+/* Change the background color of the dropdown menu */
+.dropdown-menu {
+    background-color: #f3f8f5; /* Orange color */
+    color: #0a0a0a; /* Ensure the text color remains white */
+}
+  
+  /* Change the color of dropdown items */
+.dropdown-item {
+    color: #524d4d; /* Ensure the text color remains white */
+}
+  
+/* Change the background color of the active and focused state of dropdown items */
+.dropdown-item:active, .dropdown-item:focus {
+    background-color: #f37303 !important; /* Slightly darker orange color */
+    color: #ffffff !important; /* Ensure the text color remains white */
+}
+  
+  /* Optional: Change the color of dropdown items on hover */
+.dropdown-item:hover {
+    background-color: #fd6106; /* Slightly lighter orange color */
+    color: #ffffff; /* Ensure the text color remains white */
+}
+
+#intro{
+    margin-left: 2%;
+}
+.btn:focus, .btn:active {
+    outline: none;
+    box-shadow: none;
+}
+  
+a.btn.btn-primary:focus, a.btn.btn-primary:active {
+    outline: none;
+    box-shadow: none;
+}
+  
+
+.btn-primary{
+    background: linear-gradient(to right, #ee7724, #d8363a);
+    border:none
+  }
+#footer{
+  background-color: rgb(44, 42, 42);
+  color: #ffffff;
+}
+  .icon-container {
+    margin: 0 1%; /* Ajusta el margen horizontal a 5px para reducir la distancia */
+    text-align: center; /* Asegura que el contenido dentro de cada contenedor esté centrado */
+}
+
+#redes {
+    display: flex;
+    justify-content: center; /* Asegura que todos los íconos estén centrados dentro del contenedor */
+    padding: 20px;
+  }
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: small;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.footer-content a {
+  text-decoration: none;
+  margin-right: 10px; /* Ajusta este valor según el espacio que desees entre los elementos */
+}
+
+.footer-content svg {
+  margin-right: 10px; /* Ajusta este valor según el espacio que desees entre los elementos */
+}
+
+.footer-content p {
+  margin: 0; /* Para eliminar el margen por defecto del párrafo */
+}
+
+#nom_ape{
+font-size: 70%;
+font-family: Verdana;
+}
+#quienessomos{
+  background-color: #c4bfc0;
+  
+}
+#qs{
+  padding: 20px;
+}
+.logo-link{
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Hereda el color del elemento padre */
+}
+
+
+/*SECCION*/
+#seccionIteracion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    border: solid 10px rgb(129, 128, 128);
+    border-radius: 20px;
+    
+    
+}
+
+#fondoTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 5px 5px;
+    padding: 10px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+p{
+    text-align: justify;
+    font-size: 21px;
+    
+}
+
+h2{
+    font-family: "Mandali", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h4{
+    color: rgb(129, 128, 128);;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+iframe{
+    margin: 10px;
+}
+
+
