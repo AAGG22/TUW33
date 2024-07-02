@@ -62,30 +62,36 @@
 
 <section id="java_if"style="padding: 20px;"> 
     <h3>Estructura del Control for en Java</h3>
-    <p>El condicional <code>if</code> en Java se utiliza para ejecutar un bloque de código si se cumple una condición específica. Aquí tienes un ejemplo:</p>
+    <p>El bucle <code>for</code> en java es una estructura de control que te permite repetir un bloque de código un número determinado de veces. Es particularmente útil cuando sabes de antemano cuántas veces necesitas iterar. La sintaxis básica del bucle <code>for</code> es la siguiente:</p>
     <pre><code class="language-java">
-public class Main {
+for (inicialización; condición; actualización) {
+    // código a ejecutar en cada iteración
+}
+    </code></pre>
+    <h3>Componentes del bucle for</h3>
+<P><b>Inicialización:</b> Es la parte donde inicializas la variable de control del bucle. Se ejecuta solo una vez, al inicio del bucle. <br>
+<b>Condición: </b>Es una expresión booleana que se evalúa antes de cada iteración del bucle. Si la condición es verdadera, el cuerpo del bucle se ejecuta. Si es falsa, el bucle termina. <br>
+<b>Actualización:</b> Es una expresión que se ejecuta después de cada iteración del bucle. Normalmente se utiliza para actualizar la variable de control.
+</P>
+<h3>Ejemplo de uso:</h3>
+<pre><code class="language-java">
+  public class EjemploFor {
     public static void main(String[] args) {
-        int num = 10;
-        
-        if (num > 0) {
-            System.out.println("El número es positivo.");
-        } else if (num < 0) {
-            System.out.println("El número es negativo.");
-        } else {
-            System.out.println("El número es cero.");
+        // Bucle for que cuenta de 0 a 9
+        for (int i = 0; i < 10; i++) {
+            System.out.println("El valor de i es: " + i);
         }
     }
 }
-    </code></pre>
 
+      </code></pre>
 </section>
 <section id="video">
     <div class="container mt-5">
-        <h3>Nekszer: Java #12 Estructura de control IF</h3>
+        <h3>Nekszer: Java #17 Ciclo For</h3>
         <div class="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/PMrSY1jwyZE?start=29" title="YouTube video" allowfullscreen></iframe>
-        </div>
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/4fYFnIQ0O2Y" title="Java #17 Ciclo For" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
       </div>
 </section>
 
