@@ -22,6 +22,17 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, #ee7724, #d8363a);
     }
+/* Estilo para quitar las flechas en navegadores Webkit (Chrome, Safari, Opera) */
+    input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+         margin: 0;
+    }
+
+ /* Estilo para quitar las flechas en Firefox */
+     input[type=number] {
+         -moz-appearance: textfield;
+     }
     
     @media (min-width: 768px) {
     .gradient-form {
