@@ -60,31 +60,39 @@
     </div>
   </nav>
 
-<section id="java_if"style="padding: 20px;"> 
+<section id="java_while"style="padding: 20px;"> 
     <h3>Estructura del Control while en Java</h3>
-    <p>El condicional <code>if</code> en Java se utiliza para ejecutar un bloque de código si se cumple una condición específica. Aquí tienes un ejemplo:</p>
+    <p>El ciclo <code>while</code> en Java es una estructura de control que permite repetir un bloque de código mientras una condición booleana se evalúe como verdadera. La sintaxis básica del ciclo <code>while</code> es la siguiente:</p>
     <pre><code class="language-java">
-public class Main {
-    public static void main(String[] args) {
-        int num = 10;
-        
-        if (num > 0) {
-            System.out.println("El número es positivo.");
-        } else if (num < 0) {
-            System.out.println("El número es negativo.");
-        } else {
-            System.out.println("El número es cero.");
+      while (condición) {
+        // código a ejecutar mientras la condición sea verdadera
+    }
+    </code></pre>
+    
+    <h3>Componentes del ciclo while</h3>
+    <p><b>Condición:</b> Es una expresión booleana que se evalúa antes de cada iteración del bucle. Si la condición es verdadera, el cuerpo del bucle se ejecuta. Si es falsa, el bucle termina.</p>
+    <h3>Ejemplo de uso:</h3>
+    <pre><code class="language-java">
+      public class EjemploWhile {
+        public static void main(String[] args) {
+            int i = 0; // Inicialización de la variable de control
+    
+            // Bucle while que se ejecuta mientras i sea menor que 10
+            while (i < 10) {
+                System.out.println("El valor de i es: " + i);
+                i++; // Actualización de la variable de control
+            }
         }
     }
-}
+    
     </code></pre>
 
 </section>
 <section id="video">
     <div class="container mt-5">
-        <h3>Nekszer: Java #12 Estructura de control IF</h3>
+        <h3>Nekszer: Java #15 Ciclo While</h3>
         <div class="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/PMrSY1jwyZE?start=29" title="YouTube video" allowfullscreen></iframe>
+          <iframe width="1343" height="489" src="https://www.youtube.com/embed/VfslAfuAafc" title="Java #15 Ciclo While" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
 </section>
